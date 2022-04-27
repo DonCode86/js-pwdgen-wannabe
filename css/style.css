@@ -1,0 +1,17 @@
+html {
+    background-image: url('../img/wallpapersden.com_anonymous-hacker-working_2560x1080.jpg');
+    background-size: cover;
+} 
+
+#psw_created {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+
+.psw-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
