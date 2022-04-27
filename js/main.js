@@ -6,4 +6,8 @@ const secondname = prompt ("Inserisci il tuo cognome");
 const pref_color = prompt ("Inserisci il tuo colore preferito");
 //scrivo sulla pagina nomecognomecolorepreferito21
 const pswgenerator = firstname + secondname + pref_color + "21";
-console.log(pswgenerator)
+//stampa su console:
+//console.log(pswgenerator) 
+//attribuisco variabile al mio id html
+const psw_created = document.getElementById("psw_created").innerHTML;
+document.getElementById("psw_created").innerHTML = `${psw_created} ${pswgenerator}`;
