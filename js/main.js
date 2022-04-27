@@ -5,5 +5,5 @@ const secondname = prompt ("Inserisci il tuo cognome");
 //chiedo all'utente il suo colore preferito
 const pref_color = prompt ("Inserisci il tuo colore preferito");
 //scrivo sulla pagina nomecognomecolorepreferito21
-const pswgenerator = firstname + secondname + pref_color;
+const pswgenerator = firstname + secondname + pref_color + "21";
 console.log(pswgenerator)
